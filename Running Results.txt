@@ -1,0 +1,58 @@
+Starting ExtendedExample...
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter_0
+0.0: Broker: Trying to Create VM #1 in Datacenter_0
+0.0: Broker: Trying to Create VM #2 in Datacenter_0
+0.1: Broker: VM #0 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #1 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #2 has been created in Datacenter #2, Host #2
+0.1: Broker: Sending cloudlet 0 to VM #0
+0.1: Broker: Sending cloudlet 1 to VM #1
+0.1: Broker: Sending cloudlet 2 to VM #2
+0.1: Broker: Sending cloudlet 3 to VM #2
+0.1: Broker: Sending cloudlet 4 to VM #0
+0.1: Broker: Sending cloudlet 5 to VM #1
+0.1: Broker: Sending cloudlet 6 to VM #1
+0.1: Broker: Sending cloudlet 7 to VM #1
+0.1: Broker: Sending cloudlet 8 to VM #0
+0.1: Broker: Sending cloudlet 9 to VM #2
+52.6: Broker: Cloudlet 2 received
+60.1: Broker: Cloudlet 0 received
+70.1: Broker: Cloudlet 1 received
+95.1: Broker: Cloudlet 5 received
+111.76666666666667: Broker: Cloudlet 6 received
+126.76666666666667: Broker: Cloudlet 4 received
+132.59916666666666: Broker: Cloudlet 3 received
+161.76583333333332: Broker: Cloudlet 7 received
+257.5983333333333: Broker: Cloudlet 9 received
+260.0983333333333: Broker: Cloudlet 8 received
+260.0983333333333: Broker: All Cloudlets executed. Finishing...
+260.0983333333333: Broker: Destroying VM #0
+260.0983333333333: Broker: Destroying VM #1
+260.0983333333333: Broker: Destroying VM #2
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    2        SUCCESS        2            2        52.5        0.1        52.6
+    0        SUCCESS        2            0        60        0.1        60.1
+    1        SUCCESS        2            1        70        0.1        70.1
+    5        SUCCESS        2            1        25        70.1        95.1
+    6        SUCCESS        2            1        16.67        95.1        111.77
+    4        SUCCESS        2            0        66.67        60.1        126.77
+    3        SUCCESS        2            2        80        52.6        132.6
+    7        SUCCESS        2            1        50        111.77        161.77
+    9        SUCCESS        2            2        125        132.6        257.6
+    8        SUCCESS        2            0        133.33        126.77        260.1
+ExtendedExample finished!
