@@ -3,7 +3,7 @@
 
 **2) Datacenter Broker Source:** https://github.com/clincol2/CCProject1/blob/master/DatacenterBroker.java
 
-**3) Running Results:**
+**3) Running Results:** https://github.com/clincol2/CCProject1/blob/master/Running%20Results.txt
 
 **4) Table:**
 
